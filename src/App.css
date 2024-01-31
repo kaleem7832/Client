@@ -1,0 +1,54 @@
+.calendar {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.date {
+  background: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+}
+.date p {
+  margin: 5px;
+}
+.active {
+  background: rgb(0, 123, 255);
+  color: #fff;
+}
+.dat {
+  font-size: 20px;
+}
+.day {
+  font-size: 15px;
+}
+.arrow {
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 60px;
+  background: #f1f1f1;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+  cursor: pointer;
+}
+.MuiFormControl-marginNormal {
+  margin: 0 !important;
+}
+.week-date {
+  color: #777;
+  font-size: 14px;
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+.hide {
+  display: none;
+}
