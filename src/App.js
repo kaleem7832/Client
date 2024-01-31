@@ -16,7 +16,7 @@ class App extends Component {
               <div className="row">
                 <div className="col">
                   <img
-                    src="https://www.iresearchservices.com/public/frontend/assets/images/logo.png"
+                    src="https://www.iresearchservices.com/wp-content/themes/iResearch/img/iresearchLogoLight.svg"
                     alt="irs logo"
                   ></img>
                 </div>
