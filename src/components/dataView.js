@@ -23,9 +23,13 @@ class DataView extends Component {
         lookup: {
           Prachi: "Prachi",
           Ketan: "Ketan",
-          Karishma: "Karishma",
           Kaleem: "Kaleem",
-          Rahul: "Rahul",
+          Samiksha: "Samiksha",
+          Amit:"Amit",
+          Priti: "Priti",
+          Bhakti: "Bhakti",
+          Janhavi:"Janhavi",
+          Sonu:"Sonu"
         },
       },
       {
