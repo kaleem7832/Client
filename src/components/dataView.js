@@ -6,7 +6,7 @@ import axios from "axios";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "@material-ui/lab/Alert";
 
-var url = "https://server-yks0.onrender.com/";
+var url = "https://server-yks0.onrender.com";
 
 class DataView extends Component {
   constructor(props) {
