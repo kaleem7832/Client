@@ -91,9 +91,13 @@ class Filter extends Component {
             >
               <MenuItem value="Prachi">Prachi</MenuItem>
               <MenuItem value="Ketan">Ketan</MenuItem>
-              <MenuItem value="Karishma">Karishma</MenuItem>
               <MenuItem value="Kaleem">Kaleem</MenuItem>
-              <MenuItem value="Rahul">Rahul</MenuItem>
+              <MenuItem value="Amit">Amit</MenuItem>
+              <MenuItem value="Priti">Priti</MenuItem>
+              <MenuItem value="Samiksha">Samiksha</MenuItem>
+              <MenuItem value="Bhakti">Bhakti</MenuItem>
+              <MenuItem value="Janhavi">Janhavi</MenuItem>
+              <MenuItem value="Sonu">Sonu</MenuItem>
             </Select>
           </FormControl>
         </div>
