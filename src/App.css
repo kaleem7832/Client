@@ -12,6 +12,9 @@
   width: 60px;
   height: 60px;
 }
+.logo{
+  width: 150px;
+}
 .date p {
   margin: 5px;
 }
