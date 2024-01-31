@@ -42,6 +42,6 @@
   },
   "engines": {
   "node": "14.18.0"
-}
+},
   "proxy": "http://localhost:8000"
 }
