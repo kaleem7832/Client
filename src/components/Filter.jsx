@@ -12,7 +12,7 @@ import Select from "@material-ui/core/Select";
 import FormControl from "@material-ui/core/FormControl";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import axios from "axios";
-
+var url = "https://server-yks0.onrender.com";
 class Filter extends Component {
   constructor(props) {
     super(props);
@@ -26,7 +26,7 @@ class Filter extends Component {
   }
   componentDidMount() {
     axios
-      .get("/tasks/projects/")
+      .get(url + "/tasks/projects/")
       .then((response) => {
         this.setState({ project_lists: response.data });
       })
