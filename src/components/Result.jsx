@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import TableToExcel from "@linways/table-to-excel";
 import axios from "axios";
 import moment from "moment";
+
+var url = "https://server-yks0.onrender.com";
+
 class Result extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +25,7 @@ class Result extends Component {
     });
     this.setState({ name: fname.join("_") });
     axios
-      .get("/tasks/filter/", {
+      .get(url+"/tasks/filter/", {
         params: {
           programmer: props.search.programmer,
           project: props.search.project,
