@@ -6,6 +6,8 @@ import axios from "axios";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "@material-ui/lab/Alert";
 
+var url = "https://server-yks0.onrender.com/";
+
 class DataView extends Component {
   constructor(props) {
     super(props);
@@ -60,7 +62,7 @@ class DataView extends Component {
   componentWillReceiveProps(props) {
     // properties changed
     axios
-      .get("/tasks/history/" + props.title)
+      .get(url + "/tasks/history/" + props.title)
       .then((response) => {
         this.setState({ tasks: response.data });
       })
@@ -84,10 +86,10 @@ class DataView extends Component {
                 newData = { ...newData, date: this.props.title };
 
                 axios
-                  .post("/tasks/add", newData)
+                  .post(url + "/tasks/add", newData)
                   .then((res) =>
                     axios
-                      .get("/tasks/history/" + this.props.title)
+                      .get(url + "/tasks/history/" + this.props.title)
                       .then((response) => {
                         this.setState({ success: true });
                         setTimeout(() => {
@@ -112,10 +114,10 @@ class DataView extends Component {
               new Promise((resolve) => {
                 if (oldData) {
                   axios
-                    .post("/tasks/update/" + oldData._id, newData)
+                    .post(url + "/tasks/update/" + oldData._id, newData)
                     .then((res) =>
                       axios
-                        .get("/tasks/history/" + this.props.title)
+                        .get(url + "/tasks/history/" + this.props.title)
                         .then((response) => {
                           this.setState({ updatesuccess: true });
                           setTimeout(() => {
@@ -134,10 +136,10 @@ class DataView extends Component {
               new Promise((resolve) => {
                 //handle here
                 axios
-                  .get("/tasks/delete/" + oldData._id)
+                  .get(url + "/tasks/delete/" + oldData._id)
                   .then((res) =>
                     axios
-                      .get("/tasks/history/" + this.props.title)
+                      .get(url + "/tasks/history/" + this.props.title)
                       .then((response) => {
                         this.setState({ tasks: response.data });
                         this.setState({ deletesuccess: true });
