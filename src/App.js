@@ -18,7 +18,7 @@ class App extends Component {
                   <img
                     src="https://www.iresearchservices.com/wp-content/themes/iResearch/img/iresearchLogoLight.svg"
                     alt="irs logo"
-                  ></img>
+                  className='logo'></img>
                 </div>
                 <div className="col">
                   <div className="float-right ">
@@ -50,7 +50,7 @@ class App extends Component {
         <div className="container-fluid bg-light p-3 text-center">
           <div className="row">
             <div className="col-12">
-              <p>&copy;Copyright 2020 @ iResearch Services</p>
+              <p>&copy;Copyright 2024 @ iResearch Services</p>
             </div>
           </div>
         </div>
