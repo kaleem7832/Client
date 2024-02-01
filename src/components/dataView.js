@@ -6,7 +6,7 @@ import axios from "axios";
 import Snackbar from "@material-ui/core/Snackbar";
 import Alert from "@material-ui/lab/Alert";
 
-var url = "https://ec2-51-20-254-80.eu-north-1.compute.amazonaws.com:8000";
+var url = "ec2-51-20-254-80.eu-north-1.compute.amazonaws.com:8000";
 
 class DataView extends Component {
   constructor(props) {
