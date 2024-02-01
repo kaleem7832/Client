@@ -40,6 +40,7 @@ class DataView extends Component {
           Initial_QC: "Initial QC",
           Changes: "Changes",
           Changes_QC: "Changes QC",
+          Script_QC: "Script QC",
           Final_QC: "Final QC",
           Translations: "Translations",
           Translation_QC: "Translation QC",

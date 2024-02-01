@@ -23,6 +23,7 @@ class TaskTracker extends Component {
       <div className="container">
         <Calendar onDateSelect={this.dateSelected} cdate={this.state.cdate} />
         <DataView title={this.state.cdate} />
+        
       </div>
     );
   }
