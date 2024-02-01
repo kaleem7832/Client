@@ -44,7 +44,7 @@ class DataView extends Component {
           Translations: "Translations",
           Translation_QC: "Translation QC",
           Setting_live: "Setting Live",
-          Data_Query:"Data query"
+          Data_Query: "Data query",
           Other: "Others",
         },
       },
