@@ -3,7 +3,7 @@ import TableToExcel from "@linways/table-to-excel";
 import axios from "axios";
 import moment from "moment";
 
-var url = "https://server-yks0.onrender.com";
+var url = "https://ec2-51-20-254-80.eu-north-1.compute.amazonaws.com:8000";
 
 class Result extends Component {
   constructor(props) {

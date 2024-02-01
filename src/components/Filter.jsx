@@ -12,7 +12,7 @@ import Select from "@material-ui/core/Select";
 import FormControl from "@material-ui/core/FormControl";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import axios from "axios";
-var url = "https://server-yks0.onrender.com";
+var url = "https://ec2-51-20-254-80.eu-north-1.compute.amazonaws.com:8000";
 class Filter extends Component {
   constructor(props) {
     super(props);
